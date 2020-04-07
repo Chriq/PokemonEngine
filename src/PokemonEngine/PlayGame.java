@@ -44,19 +44,6 @@ public class PlayGame extends Application{
         me.backWalk = new Image("PokemonEngine/GUI/Sprites/me_back_walking.png", true);
         launch(args);
     }
-/*
-    @Override
-    public void start(Stage stage) throws IOException {
-        window = stage;
-        window.setTitle("Pokemon Chriq");
-        window.getIcons().add(new Image("PokemonEngine/GUI/Sprites/pokeball.png"));
-
-        Parent root = FXMLLoader.load(getClass().getResource("GUI/Cities/Charlottesville.fxml"));
-
-        Scene scene = new Scene(root, 794, 550);
-        window.setScene(scene);
-        window.show();
-    }*/
 
     @Override
     public void start(Stage stage) throws Exception {
@@ -85,7 +72,7 @@ public class PlayGame extends Application{
         player.setCycleCount(MediaPlayer.INDEFINITE);
 
         window.setScene(openingScene);
-        window.setResizable(false);
+        window.setResizable(true);
         window.show();
     }
 }

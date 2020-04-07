@@ -4,10 +4,13 @@ import PokemonEngine.PlayGame;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.ImageView;
 
 import java.io.IOException;
 
 public class Building {
+
+    public ImageView face;
 
     private Scene starterSelectionScene;
 

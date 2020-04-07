@@ -148,6 +148,8 @@ public abstract class Pokemon implements TypeMatch {
             }
         }
 
+        myMove.pp--;
+
         if(opponent.health <= 0){
             opponent.health = 0;
         }

@@ -65,4 +65,4 @@ public class Battle {
         /**
          * TODO reset base stats and revive if lost
          **/
-    }
+}
